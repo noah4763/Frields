@@ -1,0 +1,344 @@
+body{
+    height: 1000px;
+}
+.header.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 64, 10);
+    overflow: hidden;
+}
+
+.header.header img{
+    width: 160px;
+}
+.landing-page{
+    padding: 20px 50px;
+}
+.nav.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+    white-space: nowrap;
+}
+.nav.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-size: larger;
+}
+.best-items{
+    margin: 50px;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.product-details{
+    background-color: #ffffffdf;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    padding: 5px 20px;
+    text-align: center;
+}
+.product-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.product-price{
+    color: rgb(67, 177, 12);
+    font-weight: 800;
+    line-height: 3px;
+    font-size: 14px;
+}
+.h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    color: rgb(67, 177, 12);
+    margin-left: 50px;
+}
+.Fruits-et-légumes{
+    border-top: 1px dashed #000;
+}
+.Fromages{
+    border-top: 1px dashed #000;
+}
+.Jus-de-fruits{
+    border-top: 1px dashed #000;
+}
+.Boissons-alcolisées{
+    border-top: 1px dashed #000;
+}
+.plant1{
+    background-image: url(/produits/poulettttt.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant2{
+    background-image: url(/produits/steakkkkk.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant3{
+    background-image: url(/produits/canardddddd.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant4{
+    background-image: url(/produits/porccccc.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant5{
+    background-image: url(/produits/boeuffffff.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant6{
+    background-image: url(/produits/pommeeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant7{
+    background-image: url(/produits/poireeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant8{
+    background-image: url(/produits/carotteeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    transform: scale(1.0);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant9{
+    background-image: url(/produits/onionnnnn.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant10{
+    background-image: url(/produits/legumeeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    transform: scale(1.0);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant11{
+    background-image: url(/produits/agrumeeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant12{
+    background-image: url(/produits/oeufs\ 66666.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant13{
+    background-image: url(/produits/oeufs\ 1222222.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant14{
+    background-image: url(/produits/comtéééééé.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant15{
+    background-image: url(/produits/brebissssss.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant16{
+    background-image: url(/produits/chevreeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant17{
+    background-image: url(/produits/cccchevre.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant18{
+    background-image: url(/produits/jus\ pommmmmme.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 90;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant19{
+    background-image: url(/produits/jus\ orangeeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant20{
+    background-image: url(/produits/poireeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant21{
+    background-image: url(/produits/nectarineeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant22{
+    background-image: url(/produits/vin\ blanccccc.png);
+    margin-left: 20px;
+    margin-top: 60px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant23{
+    background-image: url(/produits/vin\ rougeeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant24{
+    background-image: url(/produits/biereeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant25{
+    background-image: url(/produits/biereeee.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant26{
+    background-image: url(/produits/ccccccchampagne.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant27{
+    background-image: url(/produits/sangriaaaaa.png);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.voir{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-top: 150px;
+}
+.voir a{
+    text-decoration: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(67, 177, 12);
+    outline: none;
+    cursor: pointer;
+}

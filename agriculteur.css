@@ -1,0 +1,173 @@
+body{
+    height: 1000px;
+}
+.header.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 64, 10);
+    overflow: hidden;
+}
+
+.header.header img{
+    width: 160px;
+}
+.landing-page{
+    padding: 20px 50px;
+}
+.nav.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+    white-space: nowrap;
+}
+.nav.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-size: larger;
+}
+.best-items{
+    margin: 50px;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.product-details{
+    background-color: #ffffffdf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20px;
+}
+.product-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    color: rgb(67, 177, 12);
+    margin-left: 50px;
+}
+.plant1{
+    background-image: url(/Producteurs/Jean\ Paul.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px
+}
+.plant2{
+    background-image: url(/Producteurs/Julie\ Dumont.jpg);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.plant3{
+    background-image: url(/Producteurs/Jean-Luc\ et\ Arthur\ Leroy.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.plant4{
+    background-image: url(/Producteurs/Raphael\ Lefebvre.png);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.plant5{
+    background-image: url(/Producteurs/Louise\ Durant.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.plant6{
+    background-image: url(/Producteurs/Thomas\ Dufrègne.webp);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.plant7{
+    background-image: url(/Producteurs/Jules\ Moreau.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.plant8{
+    background-image: url(/Producteurs/Valerie\ Fortier.jpg);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    transform: scale(1.0);
+    margin-bottom: 0px;
+}
+.plant9{
+    background-image: url(/Producteurs/Brigite\ Martin\ 2.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+}
+.plant10{
+    background-image: url(/Producteurs/Damien\ Dumont\ 2.avif);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+    transform: scale(1.0);
+}
+.plant11{
+    background-image: url(/Producteurs/Jeofrey\ Bernard\ 2.jpg);
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.plant12{
+    background-image: url(/Producteurs/Mathieu\ Richard\ 2.jpg);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.voir{
+    text-align: center;
+    padding-bottom: 75px;
+    margin-top: 100px;
+}
+.voir a{
+    text-decoration: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(67, 177, 12);
+    outline: none;
+    cursor: pointer;
+}

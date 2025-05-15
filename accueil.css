@@ -1,0 +1,437 @@
+.body{
+    margin: 0;
+    height: 250vh;
+    padding: 0;
+    overflow-x: hidden;
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 64, 10);
+    overflow: hidden;
+}
+
+.header.header img{
+    width: 160px;
+}
+section.top-page{
+    background: url("fond\ écran.jpg");
+    background-size: cover;
+    height: 170vh;
+}
+.landing-page{
+    padding: 20px 50px;
+}
+.nav.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    list-style: none;
+    white-space: nowrap;
+}
+.nav.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-size: larger;
+}
+.big-title{
+    color:rgb(67, 177, 12);
+    font-size: 80px;
+    padding: 0px 50px;
+    font-weight: 20;
+    margin-bottom: 350px;
+}
+.services{
+    display: flex;
+}
+.sous-nav{
+    list-style: none;
+    display: none;
+}
+.a{
+    display: block;
+}
+.agriculteur{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: max-content;
+    background: rgb(67, 177, 12);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+.client{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background: rgb(67, 177, 12);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+.a-propos{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background: rgb(67, 177, 12);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+.has-agriculteur{
+    position: relative;
+}
+.has-client{
+    position: relative;
+}
+.has-a-propos{
+    position: relative;
+}
+.has-agriculteur:hover .agriculteur{
+    display: block;
+}
+.has-client:hover .client{
+    display: block;
+}
+.has-a-propos:hover .a-propos{
+    display: block;
+}
+.agriculteur li a:hover{
+    background: #5c5a5a;
+}
+.client li a:hover{
+    background: #5c5a5a;
+}
+.a-propos li a:hover{
+    background: #5c5a5a;
+}
+.accueil:hover{
+    background: rgb(67, 177, 12);
+}
+.has-agriculteur:hover{
+    background: rgb(67, 177, 12);
+}
+.has-client:hover{
+    background: rgb(67, 177, 12);
+}
+.magasin:hover{
+    background: rgb(67, 177, 12);
+}
+.has-a-propos:hover{
+    background: rgb(67, 177, 12);
+}
+
+
+.concept{
+    margin-top: 350px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.m{
+    color: rgb(67, 177, 12);
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-family: Comic Sans MS;
+    
+}
+.v{
+    list-style: none;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+
+
+.services{
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+    justify-content: space-between;
+    height: 350px;
+}
+.delivery-icon{
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.delivery-icons1{
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.delivery-icons2{
+    height: 80px;
+    width: 80px;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-details1{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 140px;
+}
+.service-details2{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.service-details3{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+
+.section-title{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    margin-top: 1150px;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(67, 177, 12);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.best-items{
+    margin: 50px;
+    margin-top: 350px;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.plant1{
+    background-image: url(/produits/biereeee.png);
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant2{
+    background-image: url(/produits/steakkkkk.png);
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant3{
+    background-image: url(/produits/jus\ pommmmmme.png);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.best-products{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+}
+.product-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.product-details{
+    background-color: #ffffffdf;
+    position: absolute;
+    bottom: 0;
+    width: 89%;
+    padding: 5px 20px;
+    text-align: center;
+}
+.product-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.product-price{
+    color: rgb(67, 177, 12);
+    font-weight: 800;
+    line-height: 3px;
+    font-size: 14px;
+}
+.plant4{
+    background-image: url(/produits/legumeeeee.png);
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plant5{
+    background-image: url(/produits/oeufs\ 66666.png);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+.voir{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+.voir a{
+    text-decoration: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(67, 177, 12);
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+footer.a{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: black;
+    background-color: rgb(236, 236, 236);
+}
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+.bloc{
+    width: 25%;
+}
+.bloc h3{
+    font-size: 16px;
+}
+.bloc p, .bloc li{
+    margin: 4px 0;
+}
+.footer-contact h3,
+.footer-horaires h3,
+.footer-medias h3{
+    font-size: 22px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-contact p{
+    padding: 5px 0;
+}
+
+.liste-media,
+.footer-contact{
+    list-style: none;
+    font-size: 17px;
+}
+.liste-horaires{
+    font-size: 17px;
+}
+.liste-media{
+    display: flex;
+    gap: 20px;
+}
+.liste-media a{
+    color: #555;
+    font-size: 20px;
+}
+.liste-media a:hover{
+    opacity: 0.7;
+}
+.liste-horaires{
+    padding: 0px;
+}
+.fa-facebook{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.fa-instagram{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.fa-twitter{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.fa-youtube{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+footer.about{
+    background-color: rgb(236, 236, 236);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.pied{
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.pied a.cgv{
+    text-decoration: none;
+    color: black;
+}
+.div.pied{
+    color: black;
+}

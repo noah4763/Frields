@@ -1,0 +1,21 @@
+.c{
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px 70px;
+    background-color: #00a400;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.b{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.r{
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Roboto", sans-serif;
+}
